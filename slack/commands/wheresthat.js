@@ -71,15 +71,12 @@ function WheresThatCommandHandler(token, command, text, reply, callback) {
       return callback(null, {
       "token":token,
       "channel":token.channel,
-      //"text":rooms[command.text],
-      //"username":Fuzzbox,
       "attachments": [
           {
               "fallback": "Required plain-text summary of the attachment.",
               "color": "#36a64f",
               "pretext": teamPreText,
               "author_name": "MYOB.maps",
-              // "author_link": "http://flickr.com/bobby/",
                "author_icon": "https://image.shutterstock.com/z/stock-vector-vector-map-icon-with-red-flag-108851135.jpg",
                "title": "MYOB.maps",
               "image_url": mapUri,
